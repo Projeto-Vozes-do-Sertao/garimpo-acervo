@@ -109,7 +109,7 @@ bun --watch src/server.ts     # dev (hot reload)
 - **L2** — autorização expressa por cessão → hospeda conforme termo
 - **L3** — copyright restrito → catálogo referencial (metadados + link à fonte)
 
-`data/raw/` mantém **conteúdo integral local** para pesquisa interna e treino de IA (uso amparado em Art. 46 da Lei 9.610/98). Apenas `manifest.json` (índice + hashes) é versionado.
+Apenas `manifest.json` (índice + hashes) é versionado neste repositório. O conteúdo integral coletado fica local na máquina do curador, para pesquisa interna e treino de IA — uso amparado em Art. 46 da Lei 9.610/98.
 
 Documentação completa: [`docs/04-politica-direitos.md`](./docs/04-politica-direitos.md).
 
@@ -131,7 +131,7 @@ Documentação completa: [`docs/04-politica-direitos.md`](./docs/04-politica-dir
 
 Distribuído sob licença **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)** — ver [LICENSE.md](./LICENSE.md).
 
-Os documentos coletados em `data/raw/` pertencem a seus respectivos autores e estão sujeitos às respectivas camadas de direitos. Veja `manifest.json` para classificação por documento.
+Os documentos coletados pertencem a seus respectivos autores e estão sujeitos às respectivas camadas de direitos. Veja `manifest.json` para classificação por documento.
 
 ## Contato
 
