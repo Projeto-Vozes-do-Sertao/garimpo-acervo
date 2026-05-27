@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.bun/
+bun.lockb
+
+# Build output
+dist/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Acervo do Museu Digital de Lagoa Real
+#
+# Conforme política de uso (Camada 3 — copyright reservado), os arquivos
+# íntegros das matérias jornalísticas NÃO devem ser distribuídos no repositório
+# público. Eles ficam locais para treinamento de IA / pesquisa interna.
+#
+# O que rastreamos no git:
+#   - data/manifest.json   (índice, metadados, hashes — público)
+#   - data/lgpd_remove_requests.jsonl  (sob avaliação, ver caso a caso)
+#
+# O que NÃO entra no git:
+#   - data/raw/      (markdown e meta.json de cada matéria — local only)
+#   - data/images/   (imagens baixadas — copyright das fontes)
+#   - data/pdf/      (PDFs gerados — derivam de fontes copyrighted)
+#   - data/cache_*   (caches resumíveis com URLs e parsed content)
+# ---------------------------------------------------------------------------
+data/raw/
+data/images/
+data/pdf/
+data/cache_*.json
