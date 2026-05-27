@@ -11,7 +11,7 @@
 >
 > A metáfora do *garimpo* nos guia: busca paciente, artesanal, atenta — descobrindo, lapidando e catalogando fontes documentais sobre a história, cultura e cotidiano de Lagoa Real.
 
-Stack: **Bun + Fastify + TypeScript** · runtime moderno, API HTTP + CLI · 100% paridade funcional com a versão Python de referência.
+Stack: **Bun + Fastify + TypeScript** · runtime moderno, API HTTP + CLI.
 
 ## O que faz
 
@@ -136,6 +136,10 @@ Os documentos coletados em `data/raw/` pertencem a seus respectivos autores e es
 ## Contato
 
 **Liga Colaborativa dos Povos** · **Projeto Vozes do Sertão**
+
+- Site: https://ligacolaborativa.com.br
+- E-mail: contato@ligacolaborativa.com.br
+
 Autor / responsável técnico: Igor Duca
 
-Pedidos de remoção LGPD: endpoint `POST /remove-request` na API ou contato pelos canais institucionais da Liga.
+Pedidos de remoção LGPD: endpoint `POST /remove-request` na API ou e-mail acima.
